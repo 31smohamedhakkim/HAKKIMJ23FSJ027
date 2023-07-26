@@ -4,13 +4,20 @@ import java.util.Scanner;
 public class closelab8 {
 
 	public static void main(String[] args) {
-		double n1=-5.5, n2=4.5, n3=3.5;
-		if (n1>=n2 && n1>=n3)
-			System.out.println(n1 +" is the largest number");
-		else if (n2>=n1 && n2>=n3)
-			System.out.println(n2+ " is the largest number");
-		else
-			System.out.println(n3+ " is the largest number");
+		float first=2.50f,second=4.50f;
+		System.out.println("--before swap--");
+		System.out.println("the first number "+first);
+		System.out.println("the second number "+second);
+		
+		float temporary =first;
+	    first = second;;
+	    second = temporary;
+	    
+	    System.out.println("--after swap--");
+	    System.out.println("the first number " +first);
+	    System.out.println("the second number" +second);
+	    
+		
 			
 			
 			
