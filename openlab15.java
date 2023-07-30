@@ -4,34 +4,29 @@ import java.util.Scanner;
 public class openlab15 {
 
 	public static void main(String args[]) {
-		int tech =1;
+		int tech =2;
+		int course =2;
 		
 		switch(tech) {
 		case 1:{
-			System.out.println("java");
-			break;
-		}
-		case 2:{
-			System.out.println("ES6");
-			break;
-		}
-		default:{
-			System.out.println("Not listed");
-		}	
+			System.out.println("python");
+			break;}
+		case 2:
+			switch(course) {
+			case 1:
+				System.out.println("J2EE");
+				break;
+			case 2:
+				System.out.println("advance java");
+			}}}}
 			
-		}
-			
-		}
-			
-		
-		
-		
-		
-		
-	
-		
-	
 				
+			
+		
+			
+			
+		
+			
 		
 		
 						
@@ -39,6 +34,6 @@ public class openlab15 {
 		
 		
 		
-	}
+	
 
 
