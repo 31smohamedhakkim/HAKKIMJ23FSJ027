@@ -18,7 +18,7 @@ public class openlab22 {
 					
 				}
 			}
-			if (counter==2);
+			if (counter==2)
 			{
 				primeNumbers = primeNumbers + i + " ";		
 			}
