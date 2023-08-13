@@ -2,11 +2,19 @@ package src;
 
 import java.util.Scanner;
 public class closelabbook2{
-	static short a;
-	static int b;
-	static long c;
-	static float d;
-	static double e;
+	//implicit type casting
+	double d1=4;
+	double d2=5.3f;
+	long l1=3;
+	//explict type casting
+	// int i1=4.5;     ERROR
+	// int i2=8l;      ERROR
+	// float =5.3;
+	
+	
+	
+	//double<float<long<int<short<byte
+	
 	
 	
 
@@ -16,11 +24,11 @@ public class closelabbook2{
 		
 		
 		
-		System.out.println("short ="+a);
-		System.out.println("int ="+b);
-		System.out.println("long ="+c);
-		System.out.println("float ="+d);
-		System.out.println("double ="+e);
+		
+		
+		
+		
+				
 		
 		
 		
