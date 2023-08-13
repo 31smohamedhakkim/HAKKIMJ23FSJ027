@@ -1,0 +1,217 @@
+package src;
+
+import java.util.Scanner;
+public class closelabbook5{
+	
+	
+	
+	
+
+	public static void main(String args[]) {
+		Scanner input = new Scanner(System.in);  
+	    System.out.print("Enter N number of elements " +
+	   "for finding average : "); 
+	 
+	    int elements = input.nextInt();
+	    System.out.println(""); 
+	 
+	    int[] numbers = new int [elements];
+	    int sum = 0;
+
+	    
+	    for (int i = 0; i < elements; i++) {
+	      System.out.print("Enter number "+(i+1)+" : " );
+	      numbers[i] = input.nextInt();
+	      sum += numbers[i];
+	    }
+		    
+		    
+		    
+		    double average = sum / elements;
+		    
+		    System.out.println(""); 
+		    System.out.println("Average is " + average);
+		    
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			
+				
+			
+		
+			
+			
+		
+			
+		
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}}
+			
+				
+			
+		
+			
+			
+		
+			
+		
+		
+						
+		
+		
+		
+		
+	
+
+
